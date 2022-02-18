@@ -19,7 +19,7 @@ public class Causa {
 
     static void metodoB(Aluno aluno){
         if(aluno == null){
-            throw new NullPointerException("Aluno esta NULO");
+            //throw new NullPointerException("Aluno esta NULO");
         }
 
         System.out.println(aluno.nome);
